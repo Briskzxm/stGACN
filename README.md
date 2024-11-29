@@ -8,6 +8,8 @@
 **Note:** Before using the `mclust` algorithm, ensure that the `mclust` package is installed in R and that `os.environ['R_HOME']` is configured with the correct path by following these steps:
 
 ```
+conda create -n stGACN_env python=3.8
+conda activate stGACN_env
 conda install r-base
 pip install rpy2
 R --quiet --no-restore
@@ -15,8 +17,6 @@ install.packages('mclust')
 ```
 Next, we will set up the environment required for stGACN：
 ```
-conda create -n stGACN_env python=3.8
-conda activate stGACN_env
 pip install -r requirements.txt
 pip install stGACN
 ```
