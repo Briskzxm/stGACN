@@ -1,8 +1,8 @@
 # stGACN
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
 `stGACN` is a Python package for quantitative characterization and interpretation of rare spatial heterogeneity from spatial transcriptomics data. 
+
+![View the PDF](./Framework.jpg)
 
 ### Installation
 Users need to create an environment and install stGACN by following procedures:
