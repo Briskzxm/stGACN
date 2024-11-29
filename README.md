@@ -20,6 +20,13 @@ Next, we will set up the environment required for stGACN：
 pip install -r requirements.txt
 pip install stGACN
 ```
+**Note:** During the installation process, you might encounter issues with the installation of `torch_sparse`, `torch_scatter`, or `torch_geometric`. If this happens, you will need to manually download the `.whl` files from [PyTorch Geometric WHL](https://pytorch-geometric.com/whl/). 
+
+Once downloaded, install the files using the following command (replace `<file_name>.whl` with the actual filename of the `.whl` file):
+```
+pip install <file_name>.whl
+```
+
 ### Usage
 Input data of stGACN :
 - The input files include various data formats, with `h5ad` being a representative example containing spatial transcriptomics data with spatial coordinates stored in `.obsm[‘spatial’]`.
