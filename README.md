@@ -11,7 +11,7 @@
 conda create -n stGACN_env python=3.8
 conda activate stGACN_env
 conda install r-base
-pip install rpy2
+pip install rpy2==3.4.1
 R --quiet --no-restore
 install.packages('mclust')
 ```
